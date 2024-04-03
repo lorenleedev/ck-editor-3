@@ -1,10 +1,11 @@
 {
   "name": "@lorenleedev/ck-editor-3",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/lorenleedev/ck-editor-3"
   },
-  "version": "0.0.1",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
