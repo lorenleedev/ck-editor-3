@@ -3,7 +3,7 @@ ck-editor를 테스트하는 레포지토리입니다.
 
 ### 사용법
 ```ecmascript 6
-import {initEditor} from 'ck-editor-3-test';
+import {initEditor} from '@lorenleedev/ck-editor-3';
 
 // editor 생성하기
 initEditor({

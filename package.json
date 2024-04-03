@@ -1,5 +1,9 @@
 {
-  "name": "ck-editor-3",
+  "name": "@lorenleedev/ck-editor-3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenleedev/ck-editor-3"
+  },
   "version": "0.0.1",
   "type": "module",
   "scripts": {
