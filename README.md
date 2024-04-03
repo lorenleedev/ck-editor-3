@@ -4,13 +4,21 @@ ck-editor를 테스트하는 레포지토리입니다.
 ### 사용법
 ```ecmascript 6
 import {initEditor} from '@lorenleedev/ck-editor-3';
+import '@lorenleedev/ck-editor-3/dist/style.css';
+import '@lorenleedev/ck-editor-3/dist/ckeditor.css';
 
 // editor 생성하기
-initEditor({
+const editor = initEditor({
     targetId: 'test',
     lang: 'en',
     initialData: '<p>test</p>',
 });
+
+// editor에 데이터 넣기
+editor.setData('<p>Hello world!</p>');
+
+// editor에 데이터 가져오기
+editor.getData();
 
 // type 참고
 type EditorConfig = {
