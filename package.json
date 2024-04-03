@@ -6,7 +6,7 @@
     "url": "https://github.com/lorenleedev/ck-editor-3"
   },
   "publishConfig": { "@lorenleedev:registry": "https://npm.pkg.github.com" },
-  "version": "0.0.5",
+  "version": "0.0.7",
   "type": "module",
   "scripts": {
     "dev": "vite",
