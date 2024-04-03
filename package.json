@@ -5,11 +5,14 @@
     "name": "lorenleedev",
     "email": "lorenlee.dev@gmail.com"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lorenleedev/ck-editor-3"
   },
-  "version": "0.0.8",
+  "version": "0.0.12",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -60,6 +63,7 @@
     "@ckeditor/ckeditor5-typing": "^41.2.1",
     "@ckeditor/ckeditor5-upload": "^41.2.1",
     "@ckeditor/vite-plugin-ckeditor5": "^0.1.3",
+    "@lorenleedev/ck-editor-3": "^0.0.9",
     "ckeditor5": "^41.0.0"
   }
 }
